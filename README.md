@@ -1,16 +1,15 @@
-# my_app_project
+Flutter API Integration Project
+This Flutter application demonstrates fetching and displaying data from an external API, along with implementing responsive UI practices, asynchronous operations, and graceful error handling.
 
-A new Flutter project.
+Project Overview
+The application fetches a list of posts from a public API (jsonplaceholder.typicode.com) and displays them in a visually appealing, scrollable ListView with smooth animations and an intuitive UI.
 
-## Getting Started
+Features Implemented
+API Integration: Using the http package to retrieve data asynchronously from JSONPlaceholder API.
+Asynchronous Handling: Efficiently manages API requests with proper use of Futures and async/await.
+Loading Indicator: A shimmer loading effect is implemented while data is fetched to enhance user experience.
+Error Handling: Errors in fetching data are gracefully managed, providing clear user feedback.
+Animated UI: Smooth entry animations for list items using TweenAnimationBuilder.
+Navigation & Splash Screen: An animated splash screen transitions seamlessly to the main content using the lottie animation package.
+Floating Action Button: Convenient "Back to Top" button appears based on user scrolling behavior.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
